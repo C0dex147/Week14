@@ -1,0 +1,98 @@
+body{
+  background-color: rgb(58, 58, 58);
+}
+.navbar{
+  list-style-type: none;
+      margin: 0;
+      margin-top: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: goldenrod;
+      border-radius: 5px;
+}
+ul.navbar li a:hover {
+  color: white;
+  background-color: rgb(220, 175, 61);
+  transition: .35s;
+}
+ul.navbar li {
+  float: left;
+}
+
+ul.navbar li a {
+  display: block;
+  color: #2a2929;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+h1{
+text-align: center;
+font-size: 100px;
+color: white;
+font-family: arial;
+}
+
+.review-list{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  list-style-type: none;
+  margin: 5px;
+}
+
+input{
+ width: 80%;
+ height: 30px;
+ margin-left: 100px;
+
+border-radius: 7px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.submit{
+  display: inline;
+  background-color: rgb(242, 184, 36);
+  border: none;
+  font-family: Arial;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  float: right;
+  margin-left: 20px;
+  transition: width .35s, height .35s, box-shadow .35s, font-weight .95s;
+}
+
+.submit:hover{
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.272);
+  
+}
+
+#star-rating{
+  display: flex;
+  align-items: center;
+}
+
+.fa {
+  cursor: pointer;
+}
+
+.fa:hover {
+  color: orange;
+}
+
+.checked {
+  color: orange;
+}
+
+.selected{
+  color: orange;
+}

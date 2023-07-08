@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reviews</title>
+  <link rel="stylesheet" href="review.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <ul class="navbar">
+    <li><a href="HomePage.html">Home</a></li>
+    <li><a href="ReviewPage.html">Write a Review</a></li>
+    <li><a href="About">About</a></li>
+    </ul>
+  
+  
+    <h1>Reviews</h1>
+    <ul class="review-list" id="reviewList"></ul>
+    <form class="review-form">
+      <div class="container">
+      <input type="text" id="reviewInput" placeholder="Enter your review">
+      <div id="star-rating" class="star-rating">
+        <span class="fa fa-star" onclick="rateStar(1)"></span>
+        <span class="fa fa-star" onclick="rateStar(2)"></span>
+        <span class="fa fa-star" onclick="rateStar(3)"></span>
+        <span class="fa fa-star" onclick="rateStar(4)"></span>
+        <span class="fa fa-star" onclick="rateStar(5)"></span>
+      </div>
+      <button class="submit" type="button" onclick="addReview()">Submit</button>
+      </div>
+    </form>
+  
+
+  <script src = "Reviews.js"></script>
+</body>
+</html>
